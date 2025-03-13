@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+
+
+<html>
+<head>
+<p><h1>Formulario de pesquisa de satisfação do cliente</h1></p>
+</head>
+  
+<body>
+<p><h3>Por favor, preencha os dados abaixo:</h3></p>
+
+ <form>
+  <label for="fnome">Nome completo:</label><br>
+  <input type="text" id="fnome" name="fnome"><br>
+  <label for="email">E-mail:</label><br>
+  <input type="email" id="email" name="email"><br>
+  <label for="telefone">Telefone:</label><br>
+  <input type="text" id="telefone" name="telefone">
+</form> 
+
+<p><h3>Agora, responda a essas 3 perguntas:</h3></p>
+
+<p>Você gostou do seu atendimento?</p>
+
+<form>
+  <input type="radio" id="sim" name="fav_language" value="sim">
+  <label for="sim">Sim</label><br>
+  <input type="radio" id="nao" name="fav_language" value="nao">
+  <label for="nao">Não</label><br>
+</form>
+
+
+<p>Recomendaria a nossa loja?</p>
+<form><input id="sim" name="fav_language" type="radio" value="sim" /> <label for="sim">Sim</label><br /><input id="nao" name="fav_language" type="radio" value="nao" /> <label for="nao">N&atilde;o</label></form>
+
+<p><label for="nota"> Como classificaria o seu atendimento?</label></p>
+<select>
+<option>Muito bom</option>
+<option>Bom</option>
+<option>Mediano</option>
+<option>Ruim</option>
+<option>P&eacute;ssimo</option>
+</select>
+
+
+<p><input id="aceite" name="aceite" type="checkbox" value="aceito" />
+<label for="aceite"> Eu autorizo a loja a compartilhar os dados preenchidos por mim nesse formulario com terceiros.</label></p>
+
+<p>&nbsp;</p>
+<p><input type="submit" value="Salvar" /></p>
+
+</body>
+
+<footer>
+</footer>
+
+</html>
