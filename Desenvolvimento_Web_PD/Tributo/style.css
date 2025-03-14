@@ -1,0 +1,40 @@
+h1, h2, h3 {
+    font-family: 'Arial';
+}
+
+p {
+    font-family: 'Courier New';
+}
+
+html {
+    background: rgb(235, 228, 225);
+    color: #201432;
+}
+
+
+a {
+    color: #1105f7c7;
+}
+
+a:hover {
+    color: rgba(7, 79, 233, 0.505);
+}
+
+.nav {
+    background-color:aliceblue;
+    display: flex;
+    flex-basis: 100%;
+    font-size: 20px;
+    position: sticky;
+    top: 0;
+}
+
+.footer {
+    background-color: aliceblue;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
