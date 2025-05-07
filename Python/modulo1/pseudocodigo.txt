@@ -1,1 +1,8 @@
+INICIO
+    LER n
+    dezena <- n - 1
+    unidade <- 10 - n
+    resultado <- (dezena * 10) + unidade
+    ESCREVER resultado
+FIM
 
