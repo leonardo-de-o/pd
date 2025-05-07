@@ -1,1 +1,5 @@
-
+O algoritmo começa lendo o valor de entrada (n), que representa o número a ser multiplicado por 9. Em seguida, realiza o cálculo por dígito:
+- O primeiro dígito (dezena) é obtido subtraindo 1 de (n): (n - 1).
+- O segundo dígito (unidade) é obtido subtraindo (n) de 10: (10 - n).
+Para obter o resultado final, multiplica-se a dezena por 10 e soma-se com a unidade: [ 9 \times n = (n - 1) \times 10 + (10 - n) ] 
+Por fim, o resultado é exibido ao usuário
